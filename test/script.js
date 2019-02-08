@@ -1,8 +1,6 @@
-let arr = {};
+let a = +prompt('Enter the number', '');
 
-for (let i = 1; i < 11; i++) {
-    arr[i] = i;
-}
-
-console.log(arr);
-console.log('hello github!');
+// if (a == null || !a.trim()) {
+//     console.log('error');
+// }
+console.log(a);
